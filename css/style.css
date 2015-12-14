@@ -27,6 +27,14 @@
     /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
 #header {
     padding: 100px 0;
 }
@@ -40,19 +48,19 @@
 }
 
 .img-circle {
-  margin-bottom: 40px;
-  width: 150px;
-  height: auto;
+    margin-bottom: 40px;
+    width: 150px;
+    height: auto;
 }
 
 
 /*portfolio*/
 
 .thumbnail {
-  width: 300px;
-  height: auto;
-  margin: 0 auto;
-  margin-bottom: 20px;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 #portfolio {
