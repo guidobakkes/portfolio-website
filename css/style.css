@@ -1,7 +1,10 @@
 .jumbotron {
     padding-top: 170px;
     height: 700px;
-    background: linear-gradient(#ccc5bf, transparent 90%), linear-gradient(0deg, #fff, transparent), #ffa949 url('https://images.unsplash.com/photo-1447876394678-42a7efa1b6db?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e20dd23bf8f3008a1a0f81e153452d27') no-repeat center;
+    background: linear-gradient(#ccc5bf, transparent 90%),
+                linear-gradient(0deg, #fff, transparent),
+                #ffa949 url('https://images.unsplash.com/photo-1447876394678-42a7efa1b6db?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e20dd23bf8f3008a1a0f81e153452d27')
+                no-repeat center;
     background-size: cover;
     text-align: center;
 }
@@ -12,7 +15,8 @@
 }
 
 #header h1 {
-    text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+    text-shadow: -0.04em 0 red,
+                0.04em 0 cyan;
 }
 
 .sm-icon {
@@ -51,6 +55,16 @@
     margin-bottom: 40px;
     width: 150px;
     height: auto;
+}
+
+.about {
+    border-top: 1px solid #D2527F;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-bottom: 1px solid #2574A9;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    padding: 20px 10px;
 }
 
 
